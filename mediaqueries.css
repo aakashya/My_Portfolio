@@ -6,6 +6,11 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  .grid-container {
+    display: grid;
+    gap: 1.875rem;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -40,6 +45,14 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .btn-container{
+    flex-wrap: wrap;
+  }
+  .grid-container {
+    display: grid;
+    gap: 1.875rem;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -102,10 +115,10 @@
   .about-section__pic-container{
     display: none;
   }
-
   .grid-container {
     display: grid;
     gap: 1.875rem;
     grid-template-columns: 1fr;
   }
+
 }
